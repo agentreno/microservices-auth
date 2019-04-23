@@ -13,3 +13,4 @@ first_key = jwks_resp.json()['keys'][0]
 key = JWK.from_json(json.dumps(first_key))
 
 token = JWT(jwt=raw_token, key=key)
+print(token.claims)
