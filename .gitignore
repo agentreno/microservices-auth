@@ -124,3 +124,4 @@ dmypy.json
 
 *.swp
 creds.env
+node_modules/
